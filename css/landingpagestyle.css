@@ -38,6 +38,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	-webkit-font-smoothing: antialiased;
 }
 ol, ul {
 	list-style: none;
@@ -61,11 +62,12 @@ table {
 	height: 70px;
 	width: 2400px;
 	font-family: 'Roboto', sans-serif; 
-   font-size: 14px; 
+   font-size: 16px; 
    color: #838994; 
    letter-spacing: 0.03em;
    -webkit-font-smoothing: antialiased;
    position: fixed;
+   font-weight: 400;
 }
 .top-navigation .content {
 	width: 1485px;
@@ -73,19 +75,20 @@ table {
 	margin: 0px auto;
 	padding: 0px 30px;
 	margin-top: 6px;
+	margin-left: 392px;
 }
 .introducingkarma {
 	text-align: center;
-	font-size: 3.1rem;
-	font-weight: -100px;
+	font-size: 3.134rem;
+	font-weight: 100;
 	padding-top: 280px;
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 	color: #FAFFFF;
 	font-family: 'Roboto', sans-serif;
 }
 .bringwifi {
 	text-align: center;
-	font-weight: 100px;
+	font-weight: 100;
 	font-size: 25px;
 	color: white;
 	font-family: 'Roboto', sans-serif;
@@ -103,9 +106,9 @@ table {
 	background-position: center bottom;
 }
 .karmalogo {
-	background-size: 35px;
+	background-size: 42px;
 	float: left;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 .top-navigation .links li:hover {
     cursor: pointer;
@@ -116,41 +119,52 @@ table {
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
-    margin-top: 15px;
-    margin-right: 200px;
-    -webkit-font-smoothing: antialiased;
+    margin-top: 20px;
+    margin-right: 155px;
 }
 .top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
+    line-height: 1;
 }
 .top-navigation .links .active {
     color: #4c5058;
-    font-weight: 800;
+    font-weight: 500;
 }
 .introduction .buttons button:hover {
     cursor: pointer;
     color: #333333;
+}
+.buttons {
+	width: 160px;
+	margin: 0 auto;
+	margin-top: 25px;
 }
 #bigbtn {
 	background-color: #f15a29;
 	color: white;
 	font-weight: 900px;
 	font-size: 18px;
-	height: 57px;
-	width: 157px;
+	height: 55px;
+	width: 154px;
 	border-radius: 5px 5px 5px;
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
 	border-color: #f15a29;
-	padding: 16px 26px;
+	padding: 16px 24px;
 	line-height: 1.33;
-	margin: 18px 46.8%;
+
 }
 .littlekarma {
 	text-align: center;
-	margin: 350px auto;
+	margin: 406px auto;
 	font-family: 'Roboto';
-	font-size: 45px;
+	font-size: 44px;
+	font-weight: 100;
+}
+.icons li{
+	display: inline-block;
+	font-size: 35px;
+	font-weight: 300;
 }
