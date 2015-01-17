@@ -77,34 +77,6 @@ table {
 	margin-top: 6px;
 	margin-left: 392px;
 }
-.introducingkarma {
-	text-align: center;
-	font-size: 3.134rem;
-	font-weight: 100;
-	padding-top: 280px;
-	margin-bottom: 20px;
-	color: #FAFFFF;
-	font-family: 'Roboto', sans-serif;
-}
-.bringwifi {
-	text-align: center;
-	font-weight: 100;
-	font-size: 25px;
-	color: white;
-	font-family: 'Roboto', sans-serif;
-	margin-top: 8px;
-	margin-bottom: 10px;
-}
-
-.introduction .homepagebackground {
-	z-index: -2;
-	position: absolute;
-	width: 2420px;
-	height: 46rem;
-	background-size: auto;
-	background-repeat: no-repeat;
-	background-position: center bottom;
-}
 .karmalogo {
 	background-size: 42px;
 	float: left;
@@ -131,6 +103,36 @@ table {
     color: #4c5058;
     font-weight: 500;
 }
+/* Banner Section */
+.introducingkarma {
+	text-align: center;
+	font-size: 3.134rem;
+	font-weight: 100;
+	padding-top: 280px;
+	margin-bottom: 20px;
+	color: #FAFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+.bringwifi {
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.introduction .homepagebackground {
+	z-index: -2;
+	position: absolute;
+	width: 2420px;
+	height: 46rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
 .introduction .buttons button:hover {
     cursor: pointer;
     color: #333333;
@@ -156,15 +158,46 @@ table {
 	line-height: 1.33;
 
 }
+/* Below Banner Section */
 .littlekarma {
 	text-align: center;
-	margin: 406px auto;
-	font-family: 'Roboto';
+	margin: 406px auto 150px;
+	font-family: 'Roboto', sans-serif;
 	font-size: 44px;
 	font-weight: 100;
 }
-.icons li{
-	display: inline-block;
-	font-size: 35px;
+.littlekarma .devices {
+	width: 400px;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 0px solid black;
+    box-sizing: border-box;
+    height: 4em;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.coffee, .refill, .device {
+	width: 33.3333333%;
+	padding-bottom: 10px;
+}
+.littlekarma .descriptions {
+	font-size: 25px;
+	text-align: center;
+	width: 380px;
+	margin-top: 20px;
+	font-weight: 400;
+}
+/*Footer */
+footer {
+	display: inline;
+	margin: 0 auto;
+	float: center;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+}
+.content #social-links, .content h6 {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
 }
