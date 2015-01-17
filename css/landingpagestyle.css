@@ -131,6 +131,7 @@ table {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	background-image: url (..images/first-background.jpg);
 }
 
 .introduction .buttons button:hover {
