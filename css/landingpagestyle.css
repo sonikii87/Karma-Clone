@@ -60,22 +60,22 @@ table {
 .top-navigation {
 	background-color: #fff;
 	height: 70px;
-	width: 2400px;
+	width: 100%;
 	font-family: 'Roboto', sans-serif; 
-   font-size: 16px; 
+   font-size: 14px; 
    color: #838994; 
    letter-spacing: 0.03em;
    -webkit-font-smoothing: antialiased;
    position: fixed;
    font-weight: 400;
+	border-bottom: 1px solid #eaebec;
 }
 .top-navigation .content {
-	width: 1485px;
-	height: 72px;
+	width: 90%;
+	height: 70px;
 	margin: 0px auto;
-	padding: 0px 30px;
-	margin-top: 6px;
-	margin-left: 392px;
+	padding: 5px 120px;
+	float: center;
 }
 .karmalogo {
 	background-size: 42px;
@@ -92,7 +92,6 @@ table {
     color: #838994;
     font-size: 16px;
     margin-top: 20px;
-    margin-right: 155px;
 }
 .top-navigation .links li {
     display: inline-block;
@@ -123,15 +122,14 @@ table {
 	margin-bottom: 10px;
 }
 
-.introduction .homepagebackground {
+.introduction {
 	z-index: -2;
-	position: absolute;
-	width: 2420px;
+	width: 100%;
 	height: 46rem;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	background-image: url (..images/first-background.jpg);
+	background-image: url(../images/first-background.jpg);
 }
 
 .introduction .buttons button:hover {
@@ -162,13 +160,13 @@ table {
 /* Below Banner Section */
 .littlekarma {
 	text-align: center;
-	margin: 406px auto 150px;
+	margin: 100px auto;
 	font-family: 'Roboto', sans-serif;
 	font-size: 44px;
 	font-weight: 100;
 }
 .littlekarma .devices {
-	width: 400px;
+	width: 25%;
     display: inline-block;
     /* styles to assist with debugging */
     border: 0px solid black;
@@ -178,41 +176,67 @@ table {
     margin-top: 50px;
 }
 .coffee, .refill, .device {
-	width: 33.3333333%;
-	padding-bottom: 10px;
+	width: 32%;
+	display: inline-block;
+	padding-bottom: 0px;
 }
 .littlekarma .descriptions {
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
-	width: 380px;
+	width: 100%;
 	margin-top: 20px;
 	font-weight: 400;
 }
 /*Footer */
 footer {
 	display: inline;
-	margin: 0 auto 100px;
+	margin: 0 auto 120px;
 	float: center;
 	font-family: 'Roboto', sans-serif;
 }
-.content #social-links, .content h6, .content h5{
+.content #social-links, .content h5, h6{
 	display: inline-block;
 	margin: 0 auto;
 	text-align: center;
-	margin-bottom: 50px;
 }
 .content h5 {
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 400;
 	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
-.content h6 {
-	margin-bottom: 150px;
+h6 {
+	margin-bottom: 180px;
 	font-weight: 300;
 	width: 100%;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 50px;
 }
 #social-links {
+	width: 100%;
+	border-radius: 50%;
+	height: 42px;
+}
+#social-links li{
 	display: inline-block;
-	width: 3.3333%;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	border: 1px solid #eaebec;
+	width: 50px;
+	height: 50px;
+}
+#social-links i {
+	margin-top:18px;
+}
+hr {
+	border: 0;
+	display: block;
+	border-top: 1px solid #eaebec;
+	margin: 1.33rem 0;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
