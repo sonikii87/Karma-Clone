@@ -240,3 +240,7 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 }
+#social-links a:hover {
+	cursor: pointer;
+    color: #333333;
+}
